@@ -1,0 +1,73 @@
+import type { Book } from "@/types";
+
+export const BOOKS: Book[] = [
+  {
+    id: 1,
+    title: "The Great Gatsby",
+    author: "F. Scott Fitzgerald",
+    price: 12.99,
+    description:
+      "A classic American novel about the Jazz Age and the American Dream.",
+    category: "Classic Literature",
+    rating: 4.2,
+    stock: 15,
+    isbn: "978-0-7432-7356-5",
+  },
+  {
+    id: 2,
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    price: 14.99,
+    description: "A gripping tale of racial injustice and childhood innocence.",
+    category: "Classic Literature",
+    rating: 4.5,
+    stock: 23,
+    isbn: "978-0-06-112008-4",
+  },
+  {
+    id: 3,
+    title: "1984",
+    author: "George Orwell",
+    price: 13.99,
+    description:
+      "A dystopian social science fiction novel about totalitarian control.",
+    category: "Science Fiction",
+    rating: 4.4,
+    stock: 31,
+    isbn: "978-0-452-28423-4",
+  },
+  {
+    id: 4,
+    title: "Pride and Prejudice",
+    author: "Jane Austen",
+    price: 11.99,
+    description: "A romantic novel that critiques the British landed gentry.",
+    category: "Romance",
+    rating: 4.3,
+    stock: 18,
+    isbn: "978-0-14-143951-8",
+  },
+  {
+    id: 5,
+    title: "The Catcher in the Rye",
+    author: "J.D. Salinger",
+    price: 15.99,
+    description:
+      "A controversial novel about teenage rebellion and alienation.",
+    category: "Coming of Age",
+    rating: 3.8,
+    stock: 12,
+    isbn: "978-0-316-76948-0",
+  },
+  {
+    id: 6,
+    title: "Lord of the Rings",
+    author: "J.R.R. Tolkien",
+    price: 24.99,
+    description: "An epic high fantasy adventure in Middle-earth.",
+    category: "Fantasy",
+    rating: 4.6,
+    stock: 9,
+    isbn: "978-0-544-00341-5",
+  },
+];
