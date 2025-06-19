@@ -54,7 +54,8 @@ describe("SearchBar", () => {
     const searchInput = screen.getByTestId("search-input");
 
     fireEvent.change(searchInput, { target: { value: "tolkien" } });
-    fireEvent.keyPress(searchInput, { key: "Enter", code: "Enter" });
+    // Changed from keyPress to keyDown for better compatibility
+    fireEvent.keyDown(searchInput, { key: "Enter", code: "Enter" });
 
     expect(mockOnSearch).toHaveBeenCalledWith("tolkien");
   });

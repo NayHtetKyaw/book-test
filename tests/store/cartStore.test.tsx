@@ -112,7 +112,8 @@ describe("cartStore", () => {
 
     expect(result.current.items[0].quantity).toBe(5);
     expect(result.current.getTotalItems()).toBe(5);
-    expect(result.current.getTotalPrice()).toBe(99.95);
+    // Use toBeCloseTo to handle floating point precision issues
+    expect(result.current.getTotalPrice()).toBeCloseTo(99.95, 2);
   });
 
   it("should remove item when quantity is set to 0", () => {

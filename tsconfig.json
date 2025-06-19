@@ -27,7 +27,7 @@
       "@/types/*": ["./src/types/*"],
       "@/store/*": ["./src/store/*"],
       "@/utils/*": ["./src/utils/*"],
-      "@/test/*": ["./test/*"],
+      "@/test/*": ["./tests/*"],
       "@playwright/test": ["./node_modules/@playwright/test"]
     }
   },

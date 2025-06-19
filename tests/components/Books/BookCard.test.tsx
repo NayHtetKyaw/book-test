@@ -1,15 +1,18 @@
+// Mock notifications first with factory function
+jest.mock("@mantine/notifications", () => ({
+  notifications: {
+    show: jest.fn(),
+  },
+}));
+
 import { render, screen, fireEvent } from "../../setup/test-utils";
 import { BookCard } from "@/components/Books/BookCard";
 import { mockCartStore } from "../../setup/test-utils";
+import { notifications } from "@mantine/notifications";
 import type { Book } from "@/types";
 
-// Mock notifications
-const mockNotificationsShow = jest.fn();
-jest.mock("@mantine/notifications", () => ({
-  notifications: {
-    show: mockNotificationsShow,
-  },
-}));
+// Get the mocked function
+const mockNotificationsShow = notifications.show as jest.Mock;
 
 const mockBook: Book = {
   id: 1,

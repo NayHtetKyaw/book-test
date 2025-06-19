@@ -1,9 +1,9 @@
-import nextJest from "next/jest";
+import nextJest from "next/jest.js";
 
 const createJestConfig = nextJest({ dir: "./" });
 
 const customJestConfig = {
-  setupFilesAfterEnv: ["<rootDir>/jest.setup.mjs"],
+  setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
   testEnvironment: "jsdom",
   testPathIgnorePatterns: [
     "<rootDir>/.next/",
@@ -13,6 +13,7 @@ const customJestConfig = {
   collectCoverageFrom: [
     "src/**/*.{js,jsx,ts,tsx}",
     "!src/**/*.d.ts",
+    "app/**/*.{js,jsx,ts,tsx}",
     "!src/types/**/*",
   ],
   coverageThreshold: {
@@ -25,6 +26,7 @@ const customJestConfig = {
   },
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1",
+    "^~/(.*)$": "<rootDir>/$1",
   },
   testMatch: [
     "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",

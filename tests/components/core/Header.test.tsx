@@ -1,6 +1,6 @@
-import { render, screen, fireEvent, waitFor } from "@/test/setup/test-utils";
+import { render, screen, fireEvent, waitFor } from "../../setup/test-utils";
 import { HeaderComponent } from "@/components/core/Header";
-import { mockAuthStore, mockCartStore } from "@/test/setup/test-utils";
+import { mockAuthStore, mockCartStore } from "../../setup/test-utils";
 
 // Mock notifications
 jest.mock("@mantine/notifications", () => ({
@@ -96,13 +96,21 @@ describe("HeaderComponent", () => {
       });
     });
 
-    it("should render login form with email and password fields", () => {
-      expect(screen.getByTestId("email-input")).toBeInTheDocument();
+    it("should render login form with email and password fields", async () => {
+      // Wait for the form content to be rendered inside the modal
+      await waitFor(() => {
+        expect(screen.getByTestId("email-input")).toBeInTheDocument();
+      });
       expect(screen.getByTestId("password-input")).toBeInTheDocument();
       expect(screen.getByTestId("login-submit")).toBeInTheDocument();
     });
 
-    it("should update email and password fields when typed in", () => {
+    it("should update email and password fields when typed in", async () => {
+      // Wait for the form to be available
+      await waitFor(() => {
+        expect(screen.getByTestId("email-input")).toBeInTheDocument();
+      });
+
       const emailInput = screen.getByTestId("email-input");
       const passwordInput = screen.getByTestId("password-input");
 
@@ -115,6 +123,11 @@ describe("HeaderComponent", () => {
 
     it("should call login function when form is submitted", async () => {
       mockAuthStore.login.mockResolvedValue(true);
+
+      // Wait for the form to be available
+      await waitFor(() => {
+        expect(screen.getByTestId("email-input")).toBeInTheDocument();
+      });
 
       const emailInput = screen.getByTestId("email-input");
       const passwordInput = screen.getByTestId("password-input");
@@ -132,6 +145,11 @@ describe("HeaderComponent", () => {
 
     it("should show error message when login fails", async () => {
       mockAuthStore.login.mockResolvedValue(false);
+
+      // Wait for the form to be available
+      await waitFor(() => {
+        expect(screen.getByTestId("email-input")).toBeInTheDocument();
+      });
 
       const emailInput = screen.getByTestId("email-input");
       const passwordInput = screen.getByTestId("password-input");

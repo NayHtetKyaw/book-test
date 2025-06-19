@@ -1,11 +1,9 @@
 import React, { ReactElement } from "react";
 import { render, RenderOptions } from "@testing-library/react";
 import { MantineProvider } from "@mantine/core";
-import { Notifications } from "@mantine/notifications";
 import { CartItem } from "@/types";
 
 // Mock Zustand stores
-
 interface MockUser {
   id: string;
   email: string;
@@ -13,7 +11,7 @@ interface MockUser {
   isAuthenticated: boolean;
 }
 
-const mockAuthStore: {
+export const mockAuthStore: {
   user: MockUser | null;
   isLoading: boolean;
   login: jest.Mock;
@@ -27,7 +25,7 @@ const mockAuthStore: {
   isAuthenticated: jest.fn(() => false),
 };
 
-const mockCartStore = {
+export const mockCartStore = {
   items: [] as CartItem[],
   addItem: jest.fn(),
   removeItem: jest.fn(),
@@ -37,6 +35,7 @@ const mockCartStore = {
   getTotalPrice: jest.fn(() => 0),
 };
 
+// Setup store mocks
 jest.mock("@/store/authStore", () => ({
   useAuthStore: () => mockAuthStore,
 }));
@@ -45,14 +44,9 @@ jest.mock("@/store/cartStore", () => ({
   useCartStore: () => mockCartStore,
 }));
 
-// Custom render function
+// Custom render function with MantineProvider
 const AllTheProviders = ({ children }: { children: React.ReactNode }) => {
-  return (
-    <MantineProvider>
-      <Notifications />
-      {children}
-    </MantineProvider>
-  );
+  return <MantineProvider>{children}</MantineProvider>;
 };
 
 const customRender = (
@@ -61,4 +55,4 @@ const customRender = (
 ) => render(ui, { wrapper: AllTheProviders, ...options });
 
 export * from "@testing-library/react";
-export { customRender as render, mockAuthStore, mockCartStore };
+export { customRender as render };

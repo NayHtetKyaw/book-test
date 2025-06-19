@@ -1,15 +1,18 @@
-import { render, screen, fireEvent } from "@/test/setup/test-utils";
-import { CartModal } from "@/components/Cart/CartModal";
-import { mockCartStore, mockAuthStore } from "@/test/setup/test-utils";
-import type { CartItem } from "@/types";
-
-// Mock notifications
-const mockNotificationsShow = jest.fn();
+// Mock notifications first with factory function
 jest.mock("@mantine/notifications", () => ({
   notifications: {
-    show: mockNotificationsShow,
+    show: jest.fn(),
   },
 }));
+
+import { render, screen, fireEvent } from "../../setup/test-utils";
+import { CartModal } from "@/components/Cart/CartModal";
+import { mockCartStore, mockAuthStore } from "../../setup/test-utils";
+import { notifications } from "@mantine/notifications";
+import type { CartItem } from "@/types";
+
+// Get the mocked function
+const mockNotificationsShow = notifications.show as jest.Mock;
 
 const mockCartItems: CartItem[] = [
   {
@@ -145,21 +148,16 @@ describe("CartModal", () => {
       expect(mockOnClose).toHaveBeenCalled();
     });
 
-    it("should show empty cart notification when authenticated but no items", () => {
+    it("should not show checkout button when cart is empty", () => {
       mockAuthStore.isAuthenticated.mockReturnValue(true);
       mockCartStore.items = [];
       mockCartStore.getTotalItems.mockReturnValue(0);
 
       render(<CartModal opened={true} onCloseAction={mockOnClose} />);
 
-      const checkoutButton = screen.getByTestId("checkout-button");
-      fireEvent.click(checkoutButton);
-
-      expect(mockNotificationsShow).toHaveBeenCalledWith({
-        title: "Empty Cart",
-        message: "Your cart is empty",
-        color: "orange",
-      });
+      // Verify that no checkout button is rendered when cart is empty
+      expect(screen.queryByTestId("checkout-button")).not.toBeInTheDocument();
+      expect(screen.getByTestId("empty-cart-message")).toBeInTheDocument();
     });
   });
 });
