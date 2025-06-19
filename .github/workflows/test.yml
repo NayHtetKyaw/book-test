@@ -11,13 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
-      - uses: oven-sh/setup-bun@v1
+      - uses: actions/setup-node@v3
         with:
-          bun-version: latest
+          node-version: "18"
+          cache: "pnpm"
 
-      - run: bun install
-      - run: bun run test:coverage
+      - run: npm ci
+      - run: npm run test:coverage
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
@@ -26,15 +26,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
-      - uses: oven-sh/setup-bun@v1
+      - uses: actions/setup-node@v3
         with:
-          bun-version: latest
+          node-version: "18"
+          cache: "pnpm"
 
-      - run: bun install
+      - run: npm ci
       - run: npx playwright install --with-deps
-      - run: bun run build
-      - run: bun run test:e2e
+      - run: npm run build
+      - run: npm run test:e2e
 
       - uses: actions/upload-artifact@v3
         if: failure()
