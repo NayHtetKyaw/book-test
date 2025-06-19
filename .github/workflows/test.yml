@@ -20,9 +20,8 @@ jobs:
       - uses: pnpm/action-setup@v2
         with:
           version: 8
-          run_install: true
 
-      - run: pnpm run test:coverage
+      - run: pnpm install
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
