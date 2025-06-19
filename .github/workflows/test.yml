@@ -4,20 +4,25 @@ on:
   push:
     branches: [main, develop]
   pull_request:
-    branches: [main]
+    branches: [main, develop]
 
 jobs:
   unit-tests:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - uses: actions/setup-node@v3
         with:
           node-version: "18"
           cache: "pnpm"
 
-      - run: npm ci
-      - run: npm run test:coverage
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          run_install: true
+
+      - run: pnpm run test:coverage
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
@@ -26,15 +31,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - uses: actions/setup-node@v3
         with:
           node-version: "18"
           cache: "pnpm"
 
-      - run: npm ci
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          run_install: true
+
       - run: npx playwright install --with-deps
-      - run: npm run build
-      - run: npm run test:e2e
+
+      - run: pnpm run build
+      - run: pnpm run test:e2e
 
       - uses: actions/upload-artifact@v3
         if: failure()
