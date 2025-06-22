@@ -1,0 +1,1112 @@
+<testsuites id="" name="" tests="255" failures="0" skipped="255" errors="0" time="11.796492">
+<testsuite name="tests/accessibility.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Chrome" tests="8" failures="0" skipped="8" time="5.18" errors="0">
+<testcase name="Accessibility Testing › should have proper page title" classname="tests/accessibility.spec.ts" time="2.56">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should have proper heading structure" classname="tests/accessibility.spec.ts" time="2.62">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should support keyboard navigation" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should support Enter key for search" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should support Escape key for modal closing" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should have proper form labels" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should have sufficient color contrast" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should work with screen reader simulation" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/basics.spec.js" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Chrome" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="basic functionality test" classname="tests/basics.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="local app test" classname="tests/basics.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/cart.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Chrome" tests="9" failures="0" skipped="9" time="0" errors="0">
+<testcase name="Shopping Cart Functionality › should add single book to cart" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should add multiple different books to cart" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should increment quantity when adding same book multiple times" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should remove book from cart" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should display correct cart total" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should show empty cart message when no items" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should open and close cart modal" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should handle rapid consecutive clicks" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should persist cart state during session" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/checkout.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Chrome" tests="5" failures="0" skipped="5" time="0" errors="0">
+<testcase name="Checkout Process › should complete checkout when logged in with items in cart" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Checkout Process › should require login when not authenticated" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Checkout Process › should prevent checkout with empty cart" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Checkout Process › should calculate correct total for multiple items" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Checkout Process › should handle checkout with quantity greater than 1" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/complete-user.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Chrome" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="Complete User Journey › should complete full user journey from search to checkout" classname="tests/complete-user.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Complete User Journey › should handle guest user journey with login prompt" classname="tests/complete-user.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/login.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Chrome" tests="7" failures="0" skipped="7" time="0" errors="0">
+<testcase name="Login Functionality › should login with valid credentials" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should show error for invalid credentials" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should validate required fields" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should close login modal with escape key" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should logout successfully" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should handle SQL injection attempts safely" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should show loading state during login" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/performance.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Chrome" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Performance Testing › should load homepage within performance budget" classname="tests/performance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Performance Testing › should have good Core Web Vitals" classname="tests/performance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Performance Testing › should handle search without performance degradation" classname="tests/performance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/responsive.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Chrome" tests="4" failures="0" skipped="4" time="0" errors="0">
+<testcase name="Responsive Design Testing › should work on mobile viewport" classname="tests/responsive.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Responsive Design Testing › should work on tablet viewport" classname="tests/responsive.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Responsive Design Testing › should work on desktop viewport" classname="tests/responsive.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Responsive Design Testing › should handle viewport changes gracefully" classname="tests/responsive.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/search.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Chrome" tests="11" failures="0" skipped="11" time="0" errors="0">
+<testcase name="Search Functionality › should search for books by title" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should search for books by author" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should search with Enter key" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should handle case-insensitive search" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should handle partial matches" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should show no results for non-existent books" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should handle special characters in search" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should clear search and show all books" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should handle empty search" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should persist search query in input field" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should maintain search functionality on mobile" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/accessibility.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Firefox" tests="8" failures="0" skipped="8" time="0" errors="0">
+<testcase name="Accessibility Testing › should have proper page title" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should have proper heading structure" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should support keyboard navigation" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should support Enter key for search" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should support Escape key for modal closing" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should have proper form labels" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should have sufficient color contrast" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should work with screen reader simulation" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/basics.spec.js" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Firefox" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="basic functionality test" classname="tests/basics.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="local app test" classname="tests/basics.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/cart.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Firefox" tests="9" failures="0" skipped="9" time="0" errors="0">
+<testcase name="Shopping Cart Functionality › should add single book to cart" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should add multiple different books to cart" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should increment quantity when adding same book multiple times" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should remove book from cart" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should display correct cart total" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should show empty cart message when no items" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should open and close cart modal" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should handle rapid consecutive clicks" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should persist cart state during session" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/checkout.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Firefox" tests="5" failures="0" skipped="5" time="0" errors="0">
+<testcase name="Checkout Process › should complete checkout when logged in with items in cart" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Checkout Process › should require login when not authenticated" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Checkout Process › should prevent checkout with empty cart" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Checkout Process › should calculate correct total for multiple items" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Checkout Process › should handle checkout with quantity greater than 1" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/complete-user.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Firefox" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="Complete User Journey › should complete full user journey from search to checkout" classname="tests/complete-user.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Complete User Journey › should handle guest user journey with login prompt" classname="tests/complete-user.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/login.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Firefox" tests="7" failures="0" skipped="7" time="0" errors="0">
+<testcase name="Login Functionality › should login with valid credentials" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should show error for invalid credentials" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should validate required fields" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should close login modal with escape key" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should logout successfully" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should handle SQL injection attempts safely" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should show loading state during login" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/performance.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Firefox" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Performance Testing › should load homepage within performance budget" classname="tests/performance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Performance Testing › should have good Core Web Vitals" classname="tests/performance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Performance Testing › should handle search without performance degradation" classname="tests/performance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/responsive.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Firefox" tests="4" failures="0" skipped="4" time="0" errors="0">
+<testcase name="Responsive Design Testing › should work on mobile viewport" classname="tests/responsive.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Responsive Design Testing › should work on tablet viewport" classname="tests/responsive.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Responsive Design Testing › should work on desktop viewport" classname="tests/responsive.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Responsive Design Testing › should handle viewport changes gracefully" classname="tests/responsive.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/search.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Firefox" tests="11" failures="0" skipped="11" time="0" errors="0">
+<testcase name="Search Functionality › should search for books by title" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should search for books by author" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should search with Enter key" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should handle case-insensitive search" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should handle partial matches" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should show no results for non-existent books" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should handle special characters in search" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should clear search and show all books" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should handle empty search" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should persist search query in input field" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should maintain search functionality on mobile" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/accessibility.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Safari" tests="8" failures="0" skipped="8" time="0" errors="0">
+<testcase name="Accessibility Testing › should have proper page title" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should have proper heading structure" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should support keyboard navigation" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should support Enter key for search" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should support Escape key for modal closing" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should have proper form labels" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should have sufficient color contrast" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should work with screen reader simulation" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/basics.spec.js" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Safari" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="basic functionality test" classname="tests/basics.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="local app test" classname="tests/basics.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/cart.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Safari" tests="9" failures="0" skipped="9" time="0" errors="0">
+<testcase name="Shopping Cart Functionality › should add single book to cart" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should add multiple different books to cart" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should increment quantity when adding same book multiple times" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should remove book from cart" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should display correct cart total" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should show empty cart message when no items" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should open and close cart modal" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should handle rapid consecutive clicks" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should persist cart state during session" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/checkout.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Safari" tests="5" failures="0" skipped="5" time="0" errors="0">
+<testcase name="Checkout Process › should complete checkout when logged in with items in cart" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Checkout Process › should require login when not authenticated" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Checkout Process › should prevent checkout with empty cart" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Checkout Process › should calculate correct total for multiple items" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Checkout Process › should handle checkout with quantity greater than 1" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/complete-user.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Safari" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="Complete User Journey › should complete full user journey from search to checkout" classname="tests/complete-user.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Complete User Journey › should handle guest user journey with login prompt" classname="tests/complete-user.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/login.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Safari" tests="7" failures="0" skipped="7" time="0" errors="0">
+<testcase name="Login Functionality › should login with valid credentials" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should show error for invalid credentials" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should validate required fields" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should close login modal with escape key" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should logout successfully" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should handle SQL injection attempts safely" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should show loading state during login" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/performance.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Safari" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Performance Testing › should load homepage within performance budget" classname="tests/performance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Performance Testing › should have good Core Web Vitals" classname="tests/performance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Performance Testing › should handle search without performance degradation" classname="tests/performance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/responsive.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Safari" tests="4" failures="0" skipped="4" time="0" errors="0">
+<testcase name="Responsive Design Testing › should work on mobile viewport" classname="tests/responsive.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Responsive Design Testing › should work on tablet viewport" classname="tests/responsive.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Responsive Design Testing › should work on desktop viewport" classname="tests/responsive.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Responsive Design Testing › should handle viewport changes gracefully" classname="tests/responsive.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/search.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Desktop Safari" tests="11" failures="0" skipped="11" time="0" errors="0">
+<testcase name="Search Functionality › should search for books by title" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should search for books by author" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should search with Enter key" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should handle case-insensitive search" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should handle partial matches" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should show no results for non-existent books" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should handle special characters in search" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should clear search and show all books" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should handle empty search" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should persist search query in input field" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should maintain search functionality on mobile" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/accessibility.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Mobile Chrome" tests="8" failures="0" skipped="8" time="0" errors="0">
+<testcase name="Accessibility Testing › should have proper page title" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should have proper heading structure" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should support keyboard navigation" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should support Enter key for search" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should support Escape key for modal closing" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should have proper form labels" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should have sufficient color contrast" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should work with screen reader simulation" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/basics.spec.js" timestamp="2025-06-22T11:39:36.985Z" hostname="Mobile Chrome" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="basic functionality test" classname="tests/basics.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="local app test" classname="tests/basics.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/cart.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Mobile Chrome" tests="9" failures="0" skipped="9" time="0" errors="0">
+<testcase name="Shopping Cart Functionality › should add single book to cart" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should add multiple different books to cart" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should increment quantity when adding same book multiple times" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should remove book from cart" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should display correct cart total" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should show empty cart message when no items" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should open and close cart modal" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should handle rapid consecutive clicks" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should persist cart state during session" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/checkout.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Mobile Chrome" tests="5" failures="0" skipped="5" time="0" errors="0">
+<testcase name="Checkout Process › should complete checkout when logged in with items in cart" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Checkout Process › should require login when not authenticated" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Checkout Process › should prevent checkout with empty cart" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Checkout Process › should calculate correct total for multiple items" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Checkout Process › should handle checkout with quantity greater than 1" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/complete-user.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Mobile Chrome" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="Complete User Journey › should complete full user journey from search to checkout" classname="tests/complete-user.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Complete User Journey › should handle guest user journey with login prompt" classname="tests/complete-user.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/login.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Mobile Chrome" tests="7" failures="0" skipped="7" time="0" errors="0">
+<testcase name="Login Functionality › should login with valid credentials" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should show error for invalid credentials" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should validate required fields" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should close login modal with escape key" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should logout successfully" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should handle SQL injection attempts safely" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should show loading state during login" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/performance.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Mobile Chrome" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Performance Testing › should load homepage within performance budget" classname="tests/performance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Performance Testing › should have good Core Web Vitals" classname="tests/performance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Performance Testing › should handle search without performance degradation" classname="tests/performance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/responsive.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Mobile Chrome" tests="4" failures="0" skipped="4" time="0" errors="0">
+<testcase name="Responsive Design Testing › should work on mobile viewport" classname="tests/responsive.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Responsive Design Testing › should work on tablet viewport" classname="tests/responsive.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Responsive Design Testing › should work on desktop viewport" classname="tests/responsive.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Responsive Design Testing › should handle viewport changes gracefully" classname="tests/responsive.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/search.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Mobile Chrome" tests="11" failures="0" skipped="11" time="0" errors="0">
+<testcase name="Search Functionality › should search for books by title" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should search for books by author" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should search with Enter key" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should handle case-insensitive search" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should handle partial matches" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should show no results for non-existent books" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should handle special characters in search" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should clear search and show all books" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should handle empty search" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should persist search query in input field" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should maintain search functionality on mobile" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/accessibility.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Mobile Safari" tests="8" failures="0" skipped="8" time="0" errors="0">
+<testcase name="Accessibility Testing › should have proper page title" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should have proper heading structure" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should support keyboard navigation" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should support Enter key for search" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should support Escape key for modal closing" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should have proper form labels" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should have sufficient color contrast" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility Testing › should work with screen reader simulation" classname="tests/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/basics.spec.js" timestamp="2025-06-22T11:39:36.985Z" hostname="Mobile Safari" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="basic functionality test" classname="tests/basics.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="local app test" classname="tests/basics.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/cart.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Mobile Safari" tests="9" failures="0" skipped="9" time="0" errors="0">
+<testcase name="Shopping Cart Functionality › should add single book to cart" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should add multiple different books to cart" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should increment quantity when adding same book multiple times" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should remove book from cart" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should display correct cart total" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should show empty cart message when no items" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should open and close cart modal" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should handle rapid consecutive clicks" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Shopping Cart Functionality › should persist cart state during session" classname="tests/cart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/checkout.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Mobile Safari" tests="5" failures="0" skipped="5" time="0" errors="0">
+<testcase name="Checkout Process › should complete checkout when logged in with items in cart" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Checkout Process › should require login when not authenticated" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Checkout Process › should prevent checkout with empty cart" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Checkout Process › should calculate correct total for multiple items" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Checkout Process › should handle checkout with quantity greater than 1" classname="tests/checkout.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/complete-user.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Mobile Safari" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="Complete User Journey › should complete full user journey from search to checkout" classname="tests/complete-user.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Complete User Journey › should handle guest user journey with login prompt" classname="tests/complete-user.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/login.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Mobile Safari" tests="7" failures="0" skipped="7" time="0" errors="0">
+<testcase name="Login Functionality › should login with valid credentials" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should show error for invalid credentials" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should validate required fields" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should close login modal with escape key" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should logout successfully" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should handle SQL injection attempts safely" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login Functionality › should show loading state during login" classname="tests/login.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/performance.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Mobile Safari" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Performance Testing › should load homepage within performance budget" classname="tests/performance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Performance Testing › should have good Core Web Vitals" classname="tests/performance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Performance Testing › should handle search without performance degradation" classname="tests/performance.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/responsive.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Mobile Safari" tests="4" failures="0" skipped="4" time="0" errors="0">
+<testcase name="Responsive Design Testing › should work on mobile viewport" classname="tests/responsive.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Responsive Design Testing › should work on tablet viewport" classname="tests/responsive.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Responsive Design Testing › should work on desktop viewport" classname="tests/responsive.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Responsive Design Testing › should handle viewport changes gracefully" classname="tests/responsive.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="tests/search.spec.ts" timestamp="2025-06-22T11:39:36.985Z" hostname="Mobile Safari" tests="11" failures="0" skipped="11" time="0" errors="0">
+<testcase name="Search Functionality › should search for books by title" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should search for books by author" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should search with Enter key" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should handle case-insensitive search" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should handle partial matches" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should show no results for non-existent books" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should handle special characters in search" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should clear search and show all books" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should handle empty search" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should persist search query in input field" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Search Functionality › should maintain search functionality on mobile" classname="tests/search.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+</testsuites>

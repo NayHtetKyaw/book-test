@@ -1,0 +1,5497 @@
+{
+  "config": {
+    "configFile": "/home/lain/ite368/book-test/playwright.config.mjs",
+    "rootDir": "/home/lain/ite368/book-test/e2e",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 6
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/e2e-results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "test-results/e2e-results.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/home/lain/ite368/book-test/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "Desktop Chrome",
+        "name": "Desktop Chrome",
+        "testDir": "/home/lain/ite368/book-test/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/lain/ite368/book-test/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "Desktop Firefox",
+        "name": "Desktop Firefox",
+        "testDir": "/home/lain/ite368/book-test/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/lain/ite368/book-test/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "Desktop Safari",
+        "name": "Desktop Safari",
+        "testDir": "/home/lain/ite368/book-test/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/lain/ite368/book-test/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "Mobile Chrome",
+        "name": "Mobile Chrome",
+        "testDir": "/home/lain/ite368/book-test/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/lain/ite368/book-test/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "Mobile Safari",
+        "name": "Mobile Safari",
+        "testDir": "/home/lain/ite368/book-test/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.53.1",
+    "workers": 6,
+    "webServer": {
+      "command": "pnpm run dev",
+      "url": "http://localhost:3000",
+      "reuseExistingServer": true,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "tests/accessibility.spec.ts",
+      "file": "tests/accessibility.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Accessibility Testing",
+          "file": "tests/accessibility.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should have proper page title",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "interrupted",
+                      "duration": 2560,
+                      "error": {
+                        "message": "Error: browserContext._wrapApiCall: Target page, context or browser has been closed",
+                        "stack": "Error: browserContext._wrapApiCall: Target page, context or browser has been closed"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserContext._wrapApiCall: Target page, context or browser has been closed"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-06-22T11:39:37.840Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-5a691b84b9556b219dfd",
+              "file": "tests/accessibility.spec.ts",
+              "line": 8,
+              "column": 7
+            },
+            {
+              "title": "should have proper heading structure",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "interrupted",
+                      "duration": 2620,
+                      "error": {
+                        "message": "Error: browserContext._wrapApiCall: Target page, context or browser has been closed",
+                        "stack": "Error: browserContext._wrapApiCall: Target page, context or browser has been closed"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserContext._wrapApiCall: Target page, context or browser has been closed"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-06-22T11:39:37.866Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-0a02d03e1ddf044d4562",
+              "file": "tests/accessibility.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should support keyboard navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-06-22T11:39:37.846Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-6bff491e3318cfd87064",
+              "file": "tests/accessibility.spec.ts",
+              "line": 19,
+              "column": 7
+            },
+            {
+              "title": "should support Enter key for search",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-06-22T11:39:37.910Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/lain/ite368/book-test/test-results/tests-accessibility-Access-678bf-upport-Enter-key-for-search-Desktop-Chrome/test-failed-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-27a3ed516905a86a0582",
+              "file": "tests/accessibility.spec.ts",
+              "line": 31,
+              "column": 7
+            },
+            {
+              "title": "should support Escape key for modal closing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-06-22T11:39:37.854Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-23bfa995825d4e5d2f1f",
+              "file": "tests/accessibility.spec.ts",
+              "line": 40,
+              "column": 7
+            },
+            {
+              "title": "should have proper form labels",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-06-22T11:39:37.848Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-d22231066c550a772674",
+              "file": "tests/accessibility.spec.ts",
+              "line": 50,
+              "column": 7
+            },
+            {
+              "title": "should have sufficient color contrast",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-6c2ec4db75bfe3a2dc77",
+              "file": "tests/accessibility.spec.ts",
+              "line": 58,
+              "column": 7
+            },
+            {
+              "title": "should work with screen reader simulation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-19b12b2490e460e6f044",
+              "file": "tests/accessibility.spec.ts",
+              "line": 65,
+              "column": 7
+            },
+            {
+              "title": "should have proper page title",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-b020c83a7622f2f83afe",
+              "file": "tests/accessibility.spec.ts",
+              "line": 8,
+              "column": 7
+            },
+            {
+              "title": "should have proper heading structure",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-ec0fea9916d489fceab0",
+              "file": "tests/accessibility.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should support keyboard navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-d914fb308a5e50ce95e8",
+              "file": "tests/accessibility.spec.ts",
+              "line": 19,
+              "column": 7
+            },
+            {
+              "title": "should support Enter key for search",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-6364ca78ff59028dba14",
+              "file": "tests/accessibility.spec.ts",
+              "line": 31,
+              "column": 7
+            },
+            {
+              "title": "should support Escape key for modal closing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-91e5f32969ba236a1647",
+              "file": "tests/accessibility.spec.ts",
+              "line": 40,
+              "column": 7
+            },
+            {
+              "title": "should have proper form labels",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-8dde8d90b1f57bf5a4d4",
+              "file": "tests/accessibility.spec.ts",
+              "line": 50,
+              "column": 7
+            },
+            {
+              "title": "should have sufficient color contrast",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-bf1be5a65715437e04e3",
+              "file": "tests/accessibility.spec.ts",
+              "line": 58,
+              "column": 7
+            },
+            {
+              "title": "should work with screen reader simulation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-9fd9380ee56cb822a5b3",
+              "file": "tests/accessibility.spec.ts",
+              "line": 65,
+              "column": 7
+            },
+            {
+              "title": "should have proper page title",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-bb83e26d3d405855e499",
+              "file": "tests/accessibility.spec.ts",
+              "line": 8,
+              "column": 7
+            },
+            {
+              "title": "should have proper heading structure",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-7c26609092d175bbfe92",
+              "file": "tests/accessibility.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should support keyboard navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-91eea6dbbb03a79b6bc4",
+              "file": "tests/accessibility.spec.ts",
+              "line": 19,
+              "column": 7
+            },
+            {
+              "title": "should support Enter key for search",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-bc537ea76682d230d61a",
+              "file": "tests/accessibility.spec.ts",
+              "line": 31,
+              "column": 7
+            },
+            {
+              "title": "should support Escape key for modal closing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-7bdce71222aaf8e2ff49",
+              "file": "tests/accessibility.spec.ts",
+              "line": 40,
+              "column": 7
+            },
+            {
+              "title": "should have proper form labels",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-3b995a65b894eba1dc0a",
+              "file": "tests/accessibility.spec.ts",
+              "line": 50,
+              "column": 7
+            },
+            {
+              "title": "should have sufficient color contrast",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-dbc7139bc06c01469e8b",
+              "file": "tests/accessibility.spec.ts",
+              "line": 58,
+              "column": 7
+            },
+            {
+              "title": "should work with screen reader simulation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-de35e08c2ceb43eb2cfd",
+              "file": "tests/accessibility.spec.ts",
+              "line": 65,
+              "column": 7
+            },
+            {
+              "title": "should have proper page title",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-7486ad103c99ebbda16b",
+              "file": "tests/accessibility.spec.ts",
+              "line": 8,
+              "column": 7
+            },
+            {
+              "title": "should have proper heading structure",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-be7be8e230b65673bacd",
+              "file": "tests/accessibility.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should support keyboard navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-e7361f3283f8b4b5640b",
+              "file": "tests/accessibility.spec.ts",
+              "line": 19,
+              "column": 7
+            },
+            {
+              "title": "should support Enter key for search",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-789ca1505e3ace94476c",
+              "file": "tests/accessibility.spec.ts",
+              "line": 31,
+              "column": 7
+            },
+            {
+              "title": "should support Escape key for modal closing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-7191f0002a91253bd304",
+              "file": "tests/accessibility.spec.ts",
+              "line": 40,
+              "column": 7
+            },
+            {
+              "title": "should have proper form labels",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-7f1a7b864bffae2ef636",
+              "file": "tests/accessibility.spec.ts",
+              "line": 50,
+              "column": 7
+            },
+            {
+              "title": "should have sufficient color contrast",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-7aa19f77e498e302cea5",
+              "file": "tests/accessibility.spec.ts",
+              "line": 58,
+              "column": 7
+            },
+            {
+              "title": "should work with screen reader simulation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-f312bcdfae495a05618e",
+              "file": "tests/accessibility.spec.ts",
+              "line": 65,
+              "column": 7
+            },
+            {
+              "title": "should have proper page title",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-d4f513144d2ce2c11b23",
+              "file": "tests/accessibility.spec.ts",
+              "line": 8,
+              "column": 7
+            },
+            {
+              "title": "should have proper heading structure",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-47797325a26047a20f05",
+              "file": "tests/accessibility.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should support keyboard navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-0c9f338c45066503e4e8",
+              "file": "tests/accessibility.spec.ts",
+              "line": 19,
+              "column": 7
+            },
+            {
+              "title": "should support Enter key for search",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-8e383e7c5a7e5562c00e",
+              "file": "tests/accessibility.spec.ts",
+              "line": 31,
+              "column": 7
+            },
+            {
+              "title": "should support Escape key for modal closing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-5baf5ea4939ebc93203a",
+              "file": "tests/accessibility.spec.ts",
+              "line": 40,
+              "column": 7
+            },
+            {
+              "title": "should have proper form labels",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-e76920c9c6c5da98baa5",
+              "file": "tests/accessibility.spec.ts",
+              "line": 50,
+              "column": 7
+            },
+            {
+              "title": "should have sufficient color contrast",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-814f8ed82f8830070da6",
+              "file": "tests/accessibility.spec.ts",
+              "line": 58,
+              "column": 7
+            },
+            {
+              "title": "should work with screen reader simulation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ded17cca123eb04a43a2-a84d6977990dea5c858e",
+              "file": "tests/accessibility.spec.ts",
+              "line": 65,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "tests/basics.spec.js",
+      "file": "tests/basics.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "basic functionality test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Desktop Chrome",
+              "projectName": "Desktop Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "bade3b5b5e93c6ce9bc1-33ba7292519094d72510",
+          "file": "tests/basics.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "local app test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Desktop Chrome",
+              "projectName": "Desktop Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "bade3b5b5e93c6ce9bc1-9df1f30cd5b5743e1b73",
+          "file": "tests/basics.spec.js",
+          "line": 8,
+          "column": 5
+        },
+        {
+          "title": "basic functionality test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Desktop Firefox",
+              "projectName": "Desktop Firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "bade3b5b5e93c6ce9bc1-6c8403cf40520447be5a",
+          "file": "tests/basics.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "local app test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Desktop Firefox",
+              "projectName": "Desktop Firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "bade3b5b5e93c6ce9bc1-84476e94d1fa3eb5b2f9",
+          "file": "tests/basics.spec.js",
+          "line": 8,
+          "column": 5
+        },
+        {
+          "title": "basic functionality test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Desktop Safari",
+              "projectName": "Desktop Safari",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "bade3b5b5e93c6ce9bc1-e65de06a602d7022e450",
+          "file": "tests/basics.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "local app test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Desktop Safari",
+              "projectName": "Desktop Safari",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "bade3b5b5e93c6ce9bc1-a94a83c452dd7303c903",
+          "file": "tests/basics.spec.js",
+          "line": 8,
+          "column": 5
+        },
+        {
+          "title": "basic functionality test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "bade3b5b5e93c6ce9bc1-6110988cac50d92192e7",
+          "file": "tests/basics.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "local app test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "bade3b5b5e93c6ce9bc1-d33f6d2a9ded1a93d6ea",
+          "file": "tests/basics.spec.js",
+          "line": 8,
+          "column": 5
+        },
+        {
+          "title": "basic functionality test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "bade3b5b5e93c6ce9bc1-167f3ea5e2c0a9b9488e",
+          "file": "tests/basics.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "local app test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "bade3b5b5e93c6ce9bc1-ddeb87994b2448d06966",
+          "file": "tests/basics.spec.js",
+          "line": 8,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/cart.spec.ts",
+      "file": "tests/cart.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Shopping Cart Functionality",
+          "file": "tests/cart.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should add single book to cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-63d61ce52db38811d381",
+              "file": "tests/cart.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should add multiple different books to cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-cebb43ca5b1fd9aa0b6d",
+              "file": "tests/cart.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "should increment quantity when adding same book multiple times",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-96fe1920e7bbbffe7d83",
+              "file": "tests/cart.spec.ts",
+              "line": 42,
+              "column": 7
+            },
+            {
+              "title": "should remove book from cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-3209e9b7eb335fa54a37",
+              "file": "tests/cart.spec.ts",
+              "line": 56,
+              "column": 7
+            },
+            {
+              "title": "should display correct cart total",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-3468a5c9778b69a6c44b",
+              "file": "tests/cart.spec.ts",
+              "line": 69,
+              "column": 7
+            },
+            {
+              "title": "should show empty cart message when no items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-c870aea0dfa9cfbc40ff",
+              "file": "tests/cart.spec.ts",
+              "line": 78,
+              "column": 7
+            },
+            {
+              "title": "should open and close cart modal",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-73eb5bbebdc41c7ab704",
+              "file": "tests/cart.spec.ts",
+              "line": 82,
+              "column": 7
+            },
+            {
+              "title": "should handle rapid consecutive clicks",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-c61363e6b0dae95ed869",
+              "file": "tests/cart.spec.ts",
+              "line": 87,
+              "column": 7
+            },
+            {
+              "title": "should persist cart state during session",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-74ebd4597a7caf5fd460",
+              "file": "tests/cart.spec.ts",
+              "line": 101,
+              "column": 7
+            },
+            {
+              "title": "should add single book to cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-f132ebfa777837c9a7d1",
+              "file": "tests/cart.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should add multiple different books to cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-225552916828a24b0888",
+              "file": "tests/cart.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "should increment quantity when adding same book multiple times",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-eff2d5c21d40b4e61a13",
+              "file": "tests/cart.spec.ts",
+              "line": 42,
+              "column": 7
+            },
+            {
+              "title": "should remove book from cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-27a5a630ed1aa31150ec",
+              "file": "tests/cart.spec.ts",
+              "line": 56,
+              "column": 7
+            },
+            {
+              "title": "should display correct cart total",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-c630890734475c3b7e1b",
+              "file": "tests/cart.spec.ts",
+              "line": 69,
+              "column": 7
+            },
+            {
+              "title": "should show empty cart message when no items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-09dff811170acee607b0",
+              "file": "tests/cart.spec.ts",
+              "line": 78,
+              "column": 7
+            },
+            {
+              "title": "should open and close cart modal",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-5cd86cc778730b2477ad",
+              "file": "tests/cart.spec.ts",
+              "line": 82,
+              "column": 7
+            },
+            {
+              "title": "should handle rapid consecutive clicks",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-1ce5c994ff372822a0da",
+              "file": "tests/cart.spec.ts",
+              "line": 87,
+              "column": 7
+            },
+            {
+              "title": "should persist cart state during session",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-649cdb303440d90b41ed",
+              "file": "tests/cart.spec.ts",
+              "line": 101,
+              "column": 7
+            },
+            {
+              "title": "should add single book to cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-f9cf90f8db56884a9ba3",
+              "file": "tests/cart.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should add multiple different books to cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-90e84fa058fd48acd56b",
+              "file": "tests/cart.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "should increment quantity when adding same book multiple times",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-527f71aaa27ad66dd1a7",
+              "file": "tests/cart.spec.ts",
+              "line": 42,
+              "column": 7
+            },
+            {
+              "title": "should remove book from cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-6c45030e8fef632ccb33",
+              "file": "tests/cart.spec.ts",
+              "line": 56,
+              "column": 7
+            },
+            {
+              "title": "should display correct cart total",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-53f49d3442c8030aa0f9",
+              "file": "tests/cart.spec.ts",
+              "line": 69,
+              "column": 7
+            },
+            {
+              "title": "should show empty cart message when no items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-d91b0439f7b8221a426d",
+              "file": "tests/cart.spec.ts",
+              "line": 78,
+              "column": 7
+            },
+            {
+              "title": "should open and close cart modal",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-5e8bf517c4db6e675bfa",
+              "file": "tests/cart.spec.ts",
+              "line": 82,
+              "column": 7
+            },
+            {
+              "title": "should handle rapid consecutive clicks",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-1879a645ea6dd13dd626",
+              "file": "tests/cart.spec.ts",
+              "line": 87,
+              "column": 7
+            },
+            {
+              "title": "should persist cart state during session",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-83fdc0d0173f30e85ced",
+              "file": "tests/cart.spec.ts",
+              "line": 101,
+              "column": 7
+            },
+            {
+              "title": "should add single book to cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-1d9e07cb91b50bc09f4c",
+              "file": "tests/cart.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should add multiple different books to cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-16295a32bb249b848bbd",
+              "file": "tests/cart.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "should increment quantity when adding same book multiple times",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-b50178b9747b7f47a6f7",
+              "file": "tests/cart.spec.ts",
+              "line": 42,
+              "column": 7
+            },
+            {
+              "title": "should remove book from cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-544be9569ba986838b48",
+              "file": "tests/cart.spec.ts",
+              "line": 56,
+              "column": 7
+            },
+            {
+              "title": "should display correct cart total",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-54f441801635e8dd0d52",
+              "file": "tests/cart.spec.ts",
+              "line": 69,
+              "column": 7
+            },
+            {
+              "title": "should show empty cart message when no items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-ede60f1525747db18d34",
+              "file": "tests/cart.spec.ts",
+              "line": 78,
+              "column": 7
+            },
+            {
+              "title": "should open and close cart modal",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-095e74a97d873925091a",
+              "file": "tests/cart.spec.ts",
+              "line": 82,
+              "column": 7
+            },
+            {
+              "title": "should handle rapid consecutive clicks",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-9b8d74c1494447ad8845",
+              "file": "tests/cart.spec.ts",
+              "line": 87,
+              "column": 7
+            },
+            {
+              "title": "should persist cart state during session",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-d68592fb4d864b147450",
+              "file": "tests/cart.spec.ts",
+              "line": 101,
+              "column": 7
+            },
+            {
+              "title": "should add single book to cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-37dec0403374a6bc810b",
+              "file": "tests/cart.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should add multiple different books to cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-481cd07550dc1a462efb",
+              "file": "tests/cart.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "should increment quantity when adding same book multiple times",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-0f435d7a504bb435db32",
+              "file": "tests/cart.spec.ts",
+              "line": 42,
+              "column": 7
+            },
+            {
+              "title": "should remove book from cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-51f9ff67d160c50a42c5",
+              "file": "tests/cart.spec.ts",
+              "line": 56,
+              "column": 7
+            },
+            {
+              "title": "should display correct cart total",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-8b97b9f336fe73d84c8c",
+              "file": "tests/cart.spec.ts",
+              "line": 69,
+              "column": 7
+            },
+            {
+              "title": "should show empty cart message when no items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-2faf228af026720fabcd",
+              "file": "tests/cart.spec.ts",
+              "line": 78,
+              "column": 7
+            },
+            {
+              "title": "should open and close cart modal",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-bc4e8a61d93783e6c032",
+              "file": "tests/cart.spec.ts",
+              "line": 82,
+              "column": 7
+            },
+            {
+              "title": "should handle rapid consecutive clicks",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-67ad64db5adf44144c74",
+              "file": "tests/cart.spec.ts",
+              "line": 87,
+              "column": 7
+            },
+            {
+              "title": "should persist cart state during session",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e04cdee13064fc202b2f-3e6860628bed44d0b8ce",
+              "file": "tests/cart.spec.ts",
+              "line": 101,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "tests/checkout.spec.ts",
+      "file": "tests/checkout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Checkout Process",
+          "file": "tests/checkout.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should complete checkout when logged in with items in cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-da6dec714e2c56753e38",
+              "file": "tests/checkout.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should require login when not authenticated",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-81a199d58b64c3ac3878",
+              "file": "tests/checkout.spec.ts",
+              "line": 36,
+              "column": 7
+            },
+            {
+              "title": "should prevent checkout with empty cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-abd7c7a4debb0d6518d7",
+              "file": "tests/checkout.spec.ts",
+              "line": 42,
+              "column": 7
+            },
+            {
+              "title": "should calculate correct total for multiple items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-3e9bb1081bb5f5550dbf",
+              "file": "tests/checkout.spec.ts",
+              "line": 55,
+              "column": 7
+            },
+            {
+              "title": "should handle checkout with quantity greater than 1",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-f7f2a59ac9463fa0b0ee",
+              "file": "tests/checkout.spec.ts",
+              "line": 73,
+              "column": 7
+            },
+            {
+              "title": "should complete checkout when logged in with items in cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-2be683dde3b3d73f5ceb",
+              "file": "tests/checkout.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should require login when not authenticated",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-b6de453247d1e7bbbe08",
+              "file": "tests/checkout.spec.ts",
+              "line": 36,
+              "column": 7
+            },
+            {
+              "title": "should prevent checkout with empty cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-827f32c38485d7331f39",
+              "file": "tests/checkout.spec.ts",
+              "line": 42,
+              "column": 7
+            },
+            {
+              "title": "should calculate correct total for multiple items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-2ff2352e8941dbf590d7",
+              "file": "tests/checkout.spec.ts",
+              "line": 55,
+              "column": 7
+            },
+            {
+              "title": "should handle checkout with quantity greater than 1",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-a8b790c67c7d5d1a31b6",
+              "file": "tests/checkout.spec.ts",
+              "line": 73,
+              "column": 7
+            },
+            {
+              "title": "should complete checkout when logged in with items in cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-3879f6bbf24b26e540d0",
+              "file": "tests/checkout.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should require login when not authenticated",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-1dd517744de132daa3d9",
+              "file": "tests/checkout.spec.ts",
+              "line": 36,
+              "column": 7
+            },
+            {
+              "title": "should prevent checkout with empty cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-d4203e7f6141493556c8",
+              "file": "tests/checkout.spec.ts",
+              "line": 42,
+              "column": 7
+            },
+            {
+              "title": "should calculate correct total for multiple items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-6be02ac3d603ea7826f8",
+              "file": "tests/checkout.spec.ts",
+              "line": 55,
+              "column": 7
+            },
+            {
+              "title": "should handle checkout with quantity greater than 1",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-da1f05af7c9a59bf0790",
+              "file": "tests/checkout.spec.ts",
+              "line": 73,
+              "column": 7
+            },
+            {
+              "title": "should complete checkout when logged in with items in cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-92a81422259e960e0e30",
+              "file": "tests/checkout.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should require login when not authenticated",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-8e86f3597495a852e81c",
+              "file": "tests/checkout.spec.ts",
+              "line": 36,
+              "column": 7
+            },
+            {
+              "title": "should prevent checkout with empty cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-d7a06e37d5a09d939710",
+              "file": "tests/checkout.spec.ts",
+              "line": 42,
+              "column": 7
+            },
+            {
+              "title": "should calculate correct total for multiple items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-0a2ea10b87102f5e1990",
+              "file": "tests/checkout.spec.ts",
+              "line": 55,
+              "column": 7
+            },
+            {
+              "title": "should handle checkout with quantity greater than 1",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-bd49102b5d0994ad3bf8",
+              "file": "tests/checkout.spec.ts",
+              "line": 73,
+              "column": 7
+            },
+            {
+              "title": "should complete checkout when logged in with items in cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-bd22cd4f39ca3485e21a",
+              "file": "tests/checkout.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should require login when not authenticated",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-8a456e971fcce13bacb2",
+              "file": "tests/checkout.spec.ts",
+              "line": 36,
+              "column": 7
+            },
+            {
+              "title": "should prevent checkout with empty cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-f412e0182768ecb7769a",
+              "file": "tests/checkout.spec.ts",
+              "line": 42,
+              "column": 7
+            },
+            {
+              "title": "should calculate correct total for multiple items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-ee6bad0336b2290f90bb",
+              "file": "tests/checkout.spec.ts",
+              "line": 55,
+              "column": 7
+            },
+            {
+              "title": "should handle checkout with quantity greater than 1",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "dbea6640c87d7b82f1cd-8648ae80baa16e29a29a",
+              "file": "tests/checkout.spec.ts",
+              "line": 73,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "tests/complete-user.spec.ts",
+      "file": "tests/complete-user.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Complete User Journey",
+          "file": "tests/complete-user.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should complete full user journey from search to checkout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4a3b6c6aa48b99f3c5af-3f9f6c5093e356d9f9e5",
+              "file": "tests/complete-user.spec.ts",
+              "line": 8,
+              "column": 7
+            },
+            {
+              "title": "should handle guest user journey with login prompt",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4a3b6c6aa48b99f3c5af-bc975f03bbf142c6ed3b",
+              "file": "tests/complete-user.spec.ts",
+              "line": 64,
+              "column": 7
+            },
+            {
+              "title": "should complete full user journey from search to checkout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4a3b6c6aa48b99f3c5af-e90957ee3f59b98a4843",
+              "file": "tests/complete-user.spec.ts",
+              "line": 8,
+              "column": 7
+            },
+            {
+              "title": "should handle guest user journey with login prompt",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4a3b6c6aa48b99f3c5af-29d831fe289c7290e08b",
+              "file": "tests/complete-user.spec.ts",
+              "line": 64,
+              "column": 7
+            },
+            {
+              "title": "should complete full user journey from search to checkout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4a3b6c6aa48b99f3c5af-47763b0864db824c8375",
+              "file": "tests/complete-user.spec.ts",
+              "line": 8,
+              "column": 7
+            },
+            {
+              "title": "should handle guest user journey with login prompt",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4a3b6c6aa48b99f3c5af-dbb3572e8f2c52198a0d",
+              "file": "tests/complete-user.spec.ts",
+              "line": 64,
+              "column": 7
+            },
+            {
+              "title": "should complete full user journey from search to checkout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4a3b6c6aa48b99f3c5af-d5ed077c3a9a51c1a0d9",
+              "file": "tests/complete-user.spec.ts",
+              "line": 8,
+              "column": 7
+            },
+            {
+              "title": "should handle guest user journey with login prompt",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4a3b6c6aa48b99f3c5af-1f975b5ed5790f4bfa80",
+              "file": "tests/complete-user.spec.ts",
+              "line": 64,
+              "column": 7
+            },
+            {
+              "title": "should complete full user journey from search to checkout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4a3b6c6aa48b99f3c5af-30f053c54f0422df184e",
+              "file": "tests/complete-user.spec.ts",
+              "line": 8,
+              "column": 7
+            },
+            {
+              "title": "should handle guest user journey with login prompt",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4a3b6c6aa48b99f3c5af-879b00b91edfc289f8ec",
+              "file": "tests/complete-user.spec.ts",
+              "line": 64,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "tests/login.spec.ts",
+      "file": "tests/login.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login Functionality",
+          "file": "tests/login.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should login with valid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-29773981964ec55084fe",
+              "file": "tests/login.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should show error for invalid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-32886276763cce17b838",
+              "file": "tests/login.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "should validate required fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-15326b0e30684dbf0a22",
+              "file": "tests/login.spec.ts",
+              "line": 38,
+              "column": 7
+            },
+            {
+              "title": "should close login modal with escape key",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-ec958676d19c102cfb24",
+              "file": "tests/login.spec.ts",
+              "line": 43,
+              "column": 7
+            },
+            {
+              "title": "should logout successfully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-0342ce6eaf3c606ceafe",
+              "file": "tests/login.spec.ts",
+              "line": 48,
+              "column": 7
+            },
+            {
+              "title": "should handle SQL injection attempts safely",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-14c65468a80eca798134",
+              "file": "tests/login.spec.ts",
+              "line": 58,
+              "column": 7
+            },
+            {
+              "title": "should show loading state during login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-ae20707a5937a0a5c923",
+              "file": "tests/login.spec.ts",
+              "line": 66,
+              "column": 7
+            },
+            {
+              "title": "should login with valid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-9fec1bf54a29ed357f43",
+              "file": "tests/login.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should show error for invalid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-0743c01c78fd6f20f8b2",
+              "file": "tests/login.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "should validate required fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-c1243aadec24439fb62e",
+              "file": "tests/login.spec.ts",
+              "line": 38,
+              "column": 7
+            },
+            {
+              "title": "should close login modal with escape key",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-46d1c974762b1f5b43ad",
+              "file": "tests/login.spec.ts",
+              "line": 43,
+              "column": 7
+            },
+            {
+              "title": "should logout successfully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-1ed117f2fcb475606bb0",
+              "file": "tests/login.spec.ts",
+              "line": 48,
+              "column": 7
+            },
+            {
+              "title": "should handle SQL injection attempts safely",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-744a72ee7c9f401cb7ae",
+              "file": "tests/login.spec.ts",
+              "line": 58,
+              "column": 7
+            },
+            {
+              "title": "should show loading state during login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-62058c2b0322c012e255",
+              "file": "tests/login.spec.ts",
+              "line": 66,
+              "column": 7
+            },
+            {
+              "title": "should login with valid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-f358a060e9bf5eac3b77",
+              "file": "tests/login.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should show error for invalid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-ba9845e3b8cccb59a571",
+              "file": "tests/login.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "should validate required fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-fd93536dce07bf456419",
+              "file": "tests/login.spec.ts",
+              "line": 38,
+              "column": 7
+            },
+            {
+              "title": "should close login modal with escape key",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-f8faf62783505496947a",
+              "file": "tests/login.spec.ts",
+              "line": 43,
+              "column": 7
+            },
+            {
+              "title": "should logout successfully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-b0d3ab40a43f5cd1507a",
+              "file": "tests/login.spec.ts",
+              "line": 48,
+              "column": 7
+            },
+            {
+              "title": "should handle SQL injection attempts safely",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-6cf5017410864a14b7fc",
+              "file": "tests/login.spec.ts",
+              "line": 58,
+              "column": 7
+            },
+            {
+              "title": "should show loading state during login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-abb1c76ce7a5a6242fd8",
+              "file": "tests/login.spec.ts",
+              "line": 66,
+              "column": 7
+            },
+            {
+              "title": "should login with valid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-808edd393cd37466b6e3",
+              "file": "tests/login.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should show error for invalid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-b0ef810efb045add100e",
+              "file": "tests/login.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "should validate required fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-9e4c61159cde00325697",
+              "file": "tests/login.spec.ts",
+              "line": 38,
+              "column": 7
+            },
+            {
+              "title": "should close login modal with escape key",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-a6da90cda3043e02681f",
+              "file": "tests/login.spec.ts",
+              "line": 43,
+              "column": 7
+            },
+            {
+              "title": "should logout successfully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-2c9c699edced64e88be1",
+              "file": "tests/login.spec.ts",
+              "line": 48,
+              "column": 7
+            },
+            {
+              "title": "should handle SQL injection attempts safely",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-2f90daade05deab7a341",
+              "file": "tests/login.spec.ts",
+              "line": 58,
+              "column": 7
+            },
+            {
+              "title": "should show loading state during login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-e21b7c9134b5f1a87df7",
+              "file": "tests/login.spec.ts",
+              "line": 66,
+              "column": 7
+            },
+            {
+              "title": "should login with valid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-28fd052f45f4f01180d0",
+              "file": "tests/login.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should show error for invalid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-ca9784740bad160b8d86",
+              "file": "tests/login.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "should validate required fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-ca73e8e8e26d2eefb755",
+              "file": "tests/login.spec.ts",
+              "line": 38,
+              "column": 7
+            },
+            {
+              "title": "should close login modal with escape key",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-b67ffd32a5457dcbd7a8",
+              "file": "tests/login.spec.ts",
+              "line": 43,
+              "column": 7
+            },
+            {
+              "title": "should logout successfully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-6157df7caac09e35387f",
+              "file": "tests/login.spec.ts",
+              "line": 48,
+              "column": 7
+            },
+            {
+              "title": "should handle SQL injection attempts safely",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-223558ac257f83f99380",
+              "file": "tests/login.spec.ts",
+              "line": 58,
+              "column": 7
+            },
+            {
+              "title": "should show loading state during login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6b6dc33e290e5a0a43b1-5294b970c28971f42dd7",
+              "file": "tests/login.spec.ts",
+              "line": 66,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "tests/performance.spec.ts",
+      "file": "tests/performance.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Performance Testing",
+          "file": "tests/performance.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should load homepage within performance budget",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d673bd62ea8143824ab2-b736ca970e16be932741",
+              "file": "tests/performance.spec.ts",
+              "line": 4,
+              "column": 7
+            },
+            {
+              "title": "should have good Core Web Vitals",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d673bd62ea8143824ab2-2e8896aaac188419adfb",
+              "file": "tests/performance.spec.ts",
+              "line": 16,
+              "column": 7
+            },
+            {
+              "title": "should handle search without performance degradation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d673bd62ea8143824ab2-bdf2e009eb5004e8fd28",
+              "file": "tests/performance.spec.ts",
+              "line": 34,
+              "column": 7
+            },
+            {
+              "title": "should load homepage within performance budget",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d673bd62ea8143824ab2-d7e679d1486190e501f1",
+              "file": "tests/performance.spec.ts",
+              "line": 4,
+              "column": 7
+            },
+            {
+              "title": "should have good Core Web Vitals",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d673bd62ea8143824ab2-711f2e2ed7332d75c110",
+              "file": "tests/performance.spec.ts",
+              "line": 16,
+              "column": 7
+            },
+            {
+              "title": "should handle search without performance degradation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d673bd62ea8143824ab2-d14d9309af87ec9c1971",
+              "file": "tests/performance.spec.ts",
+              "line": 34,
+              "column": 7
+            },
+            {
+              "title": "should load homepage within performance budget",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d673bd62ea8143824ab2-8106480d6810f72ceb82",
+              "file": "tests/performance.spec.ts",
+              "line": 4,
+              "column": 7
+            },
+            {
+              "title": "should have good Core Web Vitals",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d673bd62ea8143824ab2-9bb8b16001632bf73bcf",
+              "file": "tests/performance.spec.ts",
+              "line": 16,
+              "column": 7
+            },
+            {
+              "title": "should handle search without performance degradation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d673bd62ea8143824ab2-5aa417cc39455fbd9d5f",
+              "file": "tests/performance.spec.ts",
+              "line": 34,
+              "column": 7
+            },
+            {
+              "title": "should load homepage within performance budget",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d673bd62ea8143824ab2-f6c70589d183d5a359ea",
+              "file": "tests/performance.spec.ts",
+              "line": 4,
+              "column": 7
+            },
+            {
+              "title": "should have good Core Web Vitals",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d673bd62ea8143824ab2-899d8aad1d3997253cd2",
+              "file": "tests/performance.spec.ts",
+              "line": 16,
+              "column": 7
+            },
+            {
+              "title": "should handle search without performance degradation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d673bd62ea8143824ab2-09d843dd8ab15bdc41cf",
+              "file": "tests/performance.spec.ts",
+              "line": 34,
+              "column": 7
+            },
+            {
+              "title": "should load homepage within performance budget",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d673bd62ea8143824ab2-cefdd249e2d155e3b1db",
+              "file": "tests/performance.spec.ts",
+              "line": 4,
+              "column": 7
+            },
+            {
+              "title": "should have good Core Web Vitals",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d673bd62ea8143824ab2-bb017fb8b6628f771355",
+              "file": "tests/performance.spec.ts",
+              "line": 16,
+              "column": 7
+            },
+            {
+              "title": "should handle search without performance degradation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d673bd62ea8143824ab2-eaf705a5ca865ed6fc6e",
+              "file": "tests/performance.spec.ts",
+              "line": 34,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "tests/responsive.spec.ts",
+      "file": "tests/responsive.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Responsive Design Testing",
+          "file": "tests/responsive.spec.ts",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should work on mobile viewport",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "fe3b88600fc5dde97029-33f6e6067ca467d4f443",
+              "file": "tests/responsive.spec.ts",
+              "line": 6,
+              "column": 7
+            },
+            {
+              "title": "should work on tablet viewport",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "fe3b88600fc5dde97029-154266c2486bddbe0c11",
+              "file": "tests/responsive.spec.ts",
+              "line": 27,
+              "column": 7
+            },
+            {
+              "title": "should work on desktop viewport",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "fe3b88600fc5dde97029-8a6cdb3af527ad8f4e4a",
+              "file": "tests/responsive.spec.ts",
+              "line": 41,
+              "column": 7
+            },
+            {
+              "title": "should handle viewport changes gracefully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "fe3b88600fc5dde97029-83e81074d6772caa2437",
+              "file": "tests/responsive.spec.ts",
+              "line": 56,
+              "column": 7
+            },
+            {
+              "title": "should work on mobile viewport",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "fe3b88600fc5dde97029-58d4f2d9417707bb21c5",
+              "file": "tests/responsive.spec.ts",
+              "line": 6,
+              "column": 7
+            },
+            {
+              "title": "should work on tablet viewport",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "fe3b88600fc5dde97029-f15503ac7050ef153228",
+              "file": "tests/responsive.spec.ts",
+              "line": 27,
+              "column": 7
+            },
+            {
+              "title": "should work on desktop viewport",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "fe3b88600fc5dde97029-06318576968138f20eff",
+              "file": "tests/responsive.spec.ts",
+              "line": 41,
+              "column": 7
+            },
+            {
+              "title": "should handle viewport changes gracefully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "fe3b88600fc5dde97029-ae0bc21bb2017440fe18",
+              "file": "tests/responsive.spec.ts",
+              "line": 56,
+              "column": 7
+            },
+            {
+              "title": "should work on mobile viewport",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "fe3b88600fc5dde97029-a32633bed3362c45d6f3",
+              "file": "tests/responsive.spec.ts",
+              "line": 6,
+              "column": 7
+            },
+            {
+              "title": "should work on tablet viewport",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "fe3b88600fc5dde97029-351dd3486a1a473752e3",
+              "file": "tests/responsive.spec.ts",
+              "line": 27,
+              "column": 7
+            },
+            {
+              "title": "should work on desktop viewport",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "fe3b88600fc5dde97029-7eb07ac435d81ceec932",
+              "file": "tests/responsive.spec.ts",
+              "line": 41,
+              "column": 7
+            },
+            {
+              "title": "should handle viewport changes gracefully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "fe3b88600fc5dde97029-35d18ef24f0be66ea3c1",
+              "file": "tests/responsive.spec.ts",
+              "line": 56,
+              "column": 7
+            },
+            {
+              "title": "should work on mobile viewport",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "fe3b88600fc5dde97029-fba32ccddf67f559238c",
+              "file": "tests/responsive.spec.ts",
+              "line": 6,
+              "column": 7
+            },
+            {
+              "title": "should work on tablet viewport",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "fe3b88600fc5dde97029-e6344e70ab63c70f7f36",
+              "file": "tests/responsive.spec.ts",
+              "line": 27,
+              "column": 7
+            },
+            {
+              "title": "should work on desktop viewport",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "fe3b88600fc5dde97029-2b996cee954ca038c251",
+              "file": "tests/responsive.spec.ts",
+              "line": 41,
+              "column": 7
+            },
+            {
+              "title": "should handle viewport changes gracefully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "fe3b88600fc5dde97029-5d81876a883b12d5cd67",
+              "file": "tests/responsive.spec.ts",
+              "line": 56,
+              "column": 7
+            },
+            {
+              "title": "should work on mobile viewport",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "fe3b88600fc5dde97029-70ef615cf792ac8f9700",
+              "file": "tests/responsive.spec.ts",
+              "line": 6,
+              "column": 7
+            },
+            {
+              "title": "should work on tablet viewport",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "fe3b88600fc5dde97029-db68cc21529176009bb5",
+              "file": "tests/responsive.spec.ts",
+              "line": 27,
+              "column": 7
+            },
+            {
+              "title": "should work on desktop viewport",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "fe3b88600fc5dde97029-240d9a80a5d3cb4cfa0e",
+              "file": "tests/responsive.spec.ts",
+              "line": 41,
+              "column": 7
+            },
+            {
+              "title": "should handle viewport changes gracefully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "fe3b88600fc5dde97029-d4902c46660b3baf3382",
+              "file": "tests/responsive.spec.ts",
+              "line": 56,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "tests/search.spec.ts",
+      "file": "tests/search.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Search Functionality",
+          "file": "tests/search.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should search for books by title",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-4b48d71c97c147e5b8ce",
+              "file": "tests/search.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should search for books by author",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-2a2e4100dc26520728ee",
+              "file": "tests/search.spec.ts",
+              "line": 24,
+              "column": 7
+            },
+            {
+              "title": "should search with Enter key",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-907b7061e4222f8adbc5",
+              "file": "tests/search.spec.ts",
+              "line": 29,
+              "column": 7
+            },
+            {
+              "title": "should handle case-insensitive search",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-c79e7df78d8fa17a0e3b",
+              "file": "tests/search.spec.ts",
+              "line": 34,
+              "column": 7
+            },
+            {
+              "title": "should handle partial matches",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-63db54505ea1055b01f5",
+              "file": "tests/search.spec.ts",
+              "line": 39,
+              "column": 7
+            },
+            {
+              "title": "should show no results for non-existent books",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-f3e3d6ee0d464bd9338c",
+              "file": "tests/search.spec.ts",
+              "line": 44,
+              "column": 7
+            },
+            {
+              "title": "should handle special characters in search",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-842a006f9c57147ba63e",
+              "file": "tests/search.spec.ts",
+              "line": 49,
+              "column": 7
+            },
+            {
+              "title": "should clear search and show all books",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-4f62139ce705ffa7fa59",
+              "file": "tests/search.spec.ts",
+              "line": 54,
+              "column": 7
+            },
+            {
+              "title": "should handle empty search",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-04d50a7b5ffed7d08834",
+              "file": "tests/search.spec.ts",
+              "line": 65,
+              "column": 7
+            },
+            {
+              "title": "should persist search query in input field",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-bae6808d0b503e23eed5",
+              "file": "tests/search.spec.ts",
+              "line": 70,
+              "column": 7
+            },
+            {
+              "title": "should maintain search functionality on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-14db0849ea4c237aa528",
+              "file": "tests/search.spec.ts",
+              "line": 78,
+              "column": 7
+            },
+            {
+              "title": "should search for books by title",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-cfc715a3e8bd5f142a12",
+              "file": "tests/search.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should search for books by author",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-793c2c33317c53adad57",
+              "file": "tests/search.spec.ts",
+              "line": 24,
+              "column": 7
+            },
+            {
+              "title": "should search with Enter key",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-c4010e2c0d1434556d6b",
+              "file": "tests/search.spec.ts",
+              "line": 29,
+              "column": 7
+            },
+            {
+              "title": "should handle case-insensitive search",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-4acd9b6849dbbbb97e19",
+              "file": "tests/search.spec.ts",
+              "line": 34,
+              "column": 7
+            },
+            {
+              "title": "should handle partial matches",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-4d696750be5f9638674c",
+              "file": "tests/search.spec.ts",
+              "line": 39,
+              "column": 7
+            },
+            {
+              "title": "should show no results for non-existent books",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-b3703350e1b674dee1a2",
+              "file": "tests/search.spec.ts",
+              "line": 44,
+              "column": 7
+            },
+            {
+              "title": "should handle special characters in search",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-a30406e161a40dffe13a",
+              "file": "tests/search.spec.ts",
+              "line": 49,
+              "column": 7
+            },
+            {
+              "title": "should clear search and show all books",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-47c401692dccc859c8a4",
+              "file": "tests/search.spec.ts",
+              "line": 54,
+              "column": 7
+            },
+            {
+              "title": "should handle empty search",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-b2f62b7e101b2d71fd28",
+              "file": "tests/search.spec.ts",
+              "line": 65,
+              "column": 7
+            },
+            {
+              "title": "should persist search query in input field",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-6ed680593a77fbf66b63",
+              "file": "tests/search.spec.ts",
+              "line": 70,
+              "column": 7
+            },
+            {
+              "title": "should maintain search functionality on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Firefox",
+                  "projectName": "Desktop Firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-3f75ecd9668df34f354b",
+              "file": "tests/search.spec.ts",
+              "line": 78,
+              "column": 7
+            },
+            {
+              "title": "should search for books by title",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-ccdb2a63d488f68e1301",
+              "file": "tests/search.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should search for books by author",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-ad33a82481dbb75af48e",
+              "file": "tests/search.spec.ts",
+              "line": 24,
+              "column": 7
+            },
+            {
+              "title": "should search with Enter key",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-5a69264924e462beebc3",
+              "file": "tests/search.spec.ts",
+              "line": 29,
+              "column": 7
+            },
+            {
+              "title": "should handle case-insensitive search",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-e183d7eb964b358b55aa",
+              "file": "tests/search.spec.ts",
+              "line": 34,
+              "column": 7
+            },
+            {
+              "title": "should handle partial matches",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-76481a420842c150688c",
+              "file": "tests/search.spec.ts",
+              "line": 39,
+              "column": 7
+            },
+            {
+              "title": "should show no results for non-existent books",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-c12b659332c97dbe82f6",
+              "file": "tests/search.spec.ts",
+              "line": 44,
+              "column": 7
+            },
+            {
+              "title": "should handle special characters in search",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-6b4fd3f4c8724f7cd726",
+              "file": "tests/search.spec.ts",
+              "line": 49,
+              "column": 7
+            },
+            {
+              "title": "should clear search and show all books",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-a3a60c9c21f6a9927c49",
+              "file": "tests/search.spec.ts",
+              "line": 54,
+              "column": 7
+            },
+            {
+              "title": "should handle empty search",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-c5456803dcefbf3a00da",
+              "file": "tests/search.spec.ts",
+              "line": 65,
+              "column": 7
+            },
+            {
+              "title": "should persist search query in input field",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-32c93be4083544645d28",
+              "file": "tests/search.spec.ts",
+              "line": 70,
+              "column": 7
+            },
+            {
+              "title": "should maintain search functionality on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Safari",
+                  "projectName": "Desktop Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-fe6dcfffd7ecca23b94c",
+              "file": "tests/search.spec.ts",
+              "line": 78,
+              "column": 7
+            },
+            {
+              "title": "should search for books by title",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-75de33efbc87a54e159e",
+              "file": "tests/search.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should search for books by author",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-1ab2166b5a69249f56bc",
+              "file": "tests/search.spec.ts",
+              "line": 24,
+              "column": 7
+            },
+            {
+              "title": "should search with Enter key",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-f65b0f5c964624bb3b7a",
+              "file": "tests/search.spec.ts",
+              "line": 29,
+              "column": 7
+            },
+            {
+              "title": "should handle case-insensitive search",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-a14157d9970c98414789",
+              "file": "tests/search.spec.ts",
+              "line": 34,
+              "column": 7
+            },
+            {
+              "title": "should handle partial matches",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-353aa495feea9e133d66",
+              "file": "tests/search.spec.ts",
+              "line": 39,
+              "column": 7
+            },
+            {
+              "title": "should show no results for non-existent books",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-b1529180b498c3ee54fd",
+              "file": "tests/search.spec.ts",
+              "line": 44,
+              "column": 7
+            },
+            {
+              "title": "should handle special characters in search",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-d6cf483b766bbbec99da",
+              "file": "tests/search.spec.ts",
+              "line": 49,
+              "column": 7
+            },
+            {
+              "title": "should clear search and show all books",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-51ada640ceafb3ea81c3",
+              "file": "tests/search.spec.ts",
+              "line": 54,
+              "column": 7
+            },
+            {
+              "title": "should handle empty search",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-4979cdc72e10054cc3b9",
+              "file": "tests/search.spec.ts",
+              "line": 65,
+              "column": 7
+            },
+            {
+              "title": "should persist search query in input field",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-c6ed4ae983ef28c9207f",
+              "file": "tests/search.spec.ts",
+              "line": 70,
+              "column": 7
+            },
+            {
+              "title": "should maintain search functionality on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-e6d4699a7c3e2f89853c",
+              "file": "tests/search.spec.ts",
+              "line": 78,
+              "column": 7
+            },
+            {
+              "title": "should search for books by title",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-9dd3e587b405e9e2920b",
+              "file": "tests/search.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "should search for books by author",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-29431caa392be12b8f32",
+              "file": "tests/search.spec.ts",
+              "line": 24,
+              "column": 7
+            },
+            {
+              "title": "should search with Enter key",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-1d76af14baae290e5676",
+              "file": "tests/search.spec.ts",
+              "line": 29,
+              "column": 7
+            },
+            {
+              "title": "should handle case-insensitive search",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-4e1759c50651fa5629de",
+              "file": "tests/search.spec.ts",
+              "line": 34,
+              "column": 7
+            },
+            {
+              "title": "should handle partial matches",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-7852df2efc009d7244b4",
+              "file": "tests/search.spec.ts",
+              "line": 39,
+              "column": 7
+            },
+            {
+              "title": "should show no results for non-existent books",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-3a732cdfe50ea10a2946",
+              "file": "tests/search.spec.ts",
+              "line": 44,
+              "column": 7
+            },
+            {
+              "title": "should handle special characters in search",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-20f1ab1f56813b3043ec",
+              "file": "tests/search.spec.ts",
+              "line": 49,
+              "column": 7
+            },
+            {
+              "title": "should clear search and show all books",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-2443763472b008bcdd88",
+              "file": "tests/search.spec.ts",
+              "line": 54,
+              "column": 7
+            },
+            {
+              "title": "should handle empty search",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-13034aa36a246144927a",
+              "file": "tests/search.spec.ts",
+              "line": 65,
+              "column": 7
+            },
+            {
+              "title": "should persist search query in input field",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-122307fa7c55e2cabc9a",
+              "file": "tests/search.spec.ts",
+              "line": 70,
+              "column": 7
+            },
+            {
+              "title": "should maintain search functionality on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "06eeb96f4208d194eea7-2c4d8e6a6ac7530e2d92",
+              "file": "tests/search.spec.ts",
+              "line": 78,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-06-22T11:39:29.946Z",
+    "duration": 11796.492,
+    "expected": 0,
+    "skipped": 255,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
