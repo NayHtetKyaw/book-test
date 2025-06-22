@@ -1,4 +1,4 @@
-import { MantineProvider, ColorSchemeScript } from "@mantine/core";
+import { MantineProvider } from "@mantine/core";
 import { Notifications } from "@mantine/notifications";
 import "@mantine/core/styles.css";
 import "@mantine/notifications/styles.css";
@@ -15,9 +15,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <ColorSchemeScript />
-      </head>
       <body>
         <MantineProvider defaultColorScheme="dark">
           <Notifications />
